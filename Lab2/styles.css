@@ -57,8 +57,17 @@ order:2;
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
 }
+#grid-section1 .grid div {
+	height: 100px;
+	background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
 
 /* end Grid Part 1 */
 
