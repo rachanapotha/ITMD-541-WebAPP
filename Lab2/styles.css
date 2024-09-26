@@ -6,7 +6,10 @@
 	padding: 1;
 	list-style-type: none;
   }
-  
+  #flex-section1 ul li {
+	flex: 1;
+	margin: 0 10px;
+  }
 
 
 /* end Flexbox Part 1 */
