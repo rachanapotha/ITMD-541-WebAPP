@@ -16,7 +16,7 @@
 
 #flex-section2 ul {
 	display:flex;
-	
+	justify-content: space-between;
 
 }
 
