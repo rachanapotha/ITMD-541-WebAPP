@@ -8,7 +8,7 @@
   }
   #flex-section1 ul li {
 	flex: 1;
-	margin: 0 10px;
+	
   }
   #flex-section1 ul li a {
 	display: block;
