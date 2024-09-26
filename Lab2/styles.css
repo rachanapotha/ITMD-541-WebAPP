@@ -21,8 +21,8 @@
 }
 
 #flex-section2 li {
+flex:1;
 
-padding:10px;
 }
 
 #flex-section2 .item1 {
