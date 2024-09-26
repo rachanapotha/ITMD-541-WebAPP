@@ -73,13 +73,27 @@ order:2;
 
 
 /* Grid Part 2 */
-
+#grid-section2 .grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	height: 100%;
+	gap: 10px;
+	position: relative;
+  }
 #grid-section2 .gridboxblue {
-
+	background-color: blue;
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    z-index: 1;
 }
 
 #grid-section2 .gridboxred {
 
+	background-color: red;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	z-index: 0;
 }
 
 /* end Grid Part 2 */
